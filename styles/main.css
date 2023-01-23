@@ -1,0 +1,36 @@
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Sofia Sans', sans-serif;
+}
+
+.tts-text-shadow {
+    text-shadow:
+        0 0 5px rgb(0, 0, 0),
+        0 0 150px rgb(0, 0, 0);
+}
+
+.tts-box-shadow {
+    box-shadow:
+        0 0 2px #1D2226,
+        0 0 70px #1D2226;
+}
+
+
+.tts-margin-top{
+    margin-top:20px !important;
+}
+
+footer {
+    margin-top: 10%;
+}
+
+.tts-bar-overflows {
+    z-index: 0;
+    overflow: visible;
+    position: relative;
+}

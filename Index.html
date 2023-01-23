@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <!-- Title -->
+    <title>Home | Tapan padaliya</title>
+
+    <!-- Meta Links & SEO -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- Site Icon -->
+    <link rel="icon" type="image/x-icon" href="./media/site-ico.svg">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="./styles/w3.css">
+    <link rel="stylesheet" href="./styles/theme-style.css">
+    <link rel="stylesheet" href="./styles/main.css">
+
+    <!-- Fonts Google Links & Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@400&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+
+</head>
+
+<body class="w3-theme-l5">
+
+    <!-- Navbar -->
+    <div class="w3-top">
+        <div class="w3-bar w3-theme-d2 w3-large ">
+
+            <!-- Responsive Content hider & Bar Dropdown Navigator -->
+            <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-theme-d2"
+                href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+
+
+            <!-- Right Side Menus & Navigations-->
+            <div class="w3-right">
+                <a href="./Index.html" class=" w3-bar-item w3-button w3-padding-large w3-theme-d4"><i
+                        class="fa fa-home"></i> Home</a>
+                <a href="./pages/about.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white"
+                    title="About"><i class="fa fa-user"></i></a>
+                <a href="./pages/works.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white"
+                    title="Works"><i class="fa fa-file-code-o"></i></a>
+                <a href="./pages/notes.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white"
+                    title="Notes"><i class="fa fa-file-text"></i></a>
+            </div>
+
+            <!-- Profile Align with no text select and mouse down-->
+            <a class="w3-bar-item w3-padding-large w3-padding-large w3-theme-d5" onmousedown='return false;'
+                onselectstart='return false;' title="My Account">
+
+                <img src="./media/profile-face.png" class="w3-circle tts-box-shadow" style="height:25px;width:25px"
+                    alt="Avatar">
+                <lable class="w3-hide-small"><span class="tts-text-shadow">Tapan Padaliya</span></lable>
+            </a>
+        </div>
+    </div>
+
+    <!-- Navbar on small screens -->
+    <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium w3-large">
+        <a href="" class="w3-bar-item w3-button w3-padding-large"><i class="fa fa-reload"></i>&nbsp;Refresh Page</a>
+        <a href="./Index.html" class="w3-bar-item w3-button w3-padding-large"><i class="fa fa-home"></i>&nbsp;Home</a>
+        <a href="./pages/about.html" class="w3-bar-item w3-button w3-padding-large"><i
+                class="fa fa-user"></i>&nbsp;About</a>
+        <a href="./pages/works.html" class="w3-bar-item w3-button w3-padding-large"><i
+                class="fa fa-file-code-o"></i>&nbsp;Works</a>
+        <a href="./pages/notes.html" class="w3-bar-item w3-button w3-padding-large"><i
+                class="fa fa-file-text"></i>&nbsp;Notes</a>
+    </div>
+
+    <!-- Page Container ----------------------------------------------------------------------------------->
+
+    <!-- Alert Box -->
+    <div style="margin-top:80px !important"
+        class="w3-margin w3-container w3-display-container w3-round w3-theme-l4 w3-border w3-theme-border w3-margin-bottom">
+        <span onclick="this.parentElement.style.display='none'" class="w3-button w3-theme-l3 w3-display-topright">
+            <i class="fa fa           -remove"></i>
+        </span>
+        <p><strong>Hey!</strong></p>
+        <p>People are looking at your profile. Find out who.</p>
+    </div>
+
+
+
+
+
+    <!-- Footer ------------------------------------------------------------------------------------------->
+    <footer class="w3-container w3-theme-d3 w3-padding-16">
+        <h5>Footer</h5>
+        <a href="./hidden-pages/template.html">Template</a>
+    </footer>
+
+
+    <!--Javascript Embedded Things-->
+    <script src="./script/main.js"></script>
+
+</body>
+
+</html>
