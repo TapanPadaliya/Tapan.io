@@ -1,2 +1,1 @@
-#Personal Portfolio
-https://tapanpadaliya.github.io/Tapan.io/
+#Personal Portfolio - https://tapanpadaliya.github.io/Tapan.io/
