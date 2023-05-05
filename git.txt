@@ -1,0 +1,40 @@
+# How to clone project and create branch and pull 
+
+clone project
+	git clone <git repo>
+
+check status
+	git status
+	(it must be origin/master)
+
+create branch 
+	git checkout -b next
+
+change the file 
+	<do some change in files>
+
+add files for commit 
+	git add .
+
+commit file
+	git commit -m "updated file"
+
+push the commit
+	git push origin next
+
+
+# get pull from branch , while you are on new branch 
+
+git pull origin main
+
+
+# always get a pull before push on any branch 
+
+git ignore files constraints the files that need to be ignore 
+
+
+stash files ( save without commit )
+	that allows you to temporarily save changes that you have made to your working directory without committing them.
+	eg. while in priority work you can stash current work , do another work and unstash old files that makes sense.
+	git stash 
+
